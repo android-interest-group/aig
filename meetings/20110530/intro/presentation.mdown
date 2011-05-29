@@ -1,0 +1,171 @@
+% Android Development with Eclipse
+% Paul Crane, et al.
+% \today
+
+Introduction
+============
+
+* Introduction to Git
+* Setup Eclipse and the Android SDK
+* Project Suggestions
+
+Introduction to Git
+===================
+
+* Distributed version control system
+* Keeps track of changes to files
+* 'Two' repositories local and remote
+	* can commit to the local one several times before pushing to the remote
+
+Push only when you're ready to inflict the changes on someone else!
+
+Introduction to Git
+===================
+\framesubtitle{Version Control Systems}
+
+* Keep old versions of files in time-stamped (or numbered) directories
+* Programmers use a `database` to store changes
+
+\begin{figure}
+\centerline{\includegraphics[width=0.45\textwidth]{images/local.png}}
+\label{fig:local}
+\caption{source:\url{http://progit.org/book/ch1-1.html}}
+\end{figure}
+
+How do developers collaborate?
+
+Introduction to Git
+===================
+\framesubtitle{Version Control Systems}
+
+* Store the `database` on a server and allow clients to 'checkout'
+
+\begin{figure}
+\centerline{\includegraphics[width=0.5\textwidth]{images/central.png}}
+\label{fig:central}
+\caption{source:\url{http://progit.org/book/ch1-1.html}}
+\end{figure}
+
+What if the server dies?
+
+Introduction to Git
+===================
+\framesubtitle{Version Control Systems}
+
+* Clone the entire repository
+
+\begin{figure}
+\centerline{\includegraphics[width=0.5\textwidth]{images/distributed.png}}
+\label{fig:distributed}
+\caption{source:\url{http://progit.org/book/ch1-1.html}}
+\end{figure}
+
+Surely that's inefficient?
+
+Introduction to Git
+===================
+\framesubtitle{Version Control Systems}
+
+* Git takes snapshots of the repo
+
+\begin{figure}
+\centerline{\includegraphics[width=0.5\textwidth]{images/git_checkin.png}}
+\label{fig:vcs_checkin}
+\caption{source:\url{http://progit.org/book/ch1-3.html}}
+\end{figure}
+
+
+Introduction to Git
+===================
+\framesubtitle{Version Control Systems}
+
+* Other version control systems
+
+\begin{figure}
+\centerline{\includegraphics[width=0.5\textwidth]{images/vcs_checkin.png}}
+\label{fig:vcs_checkin}
+\caption{source:\url{http://progit.org/book/ch1-3.html}}
+\end{figure}
+
+Introduction to Git
+===================
+\framesubtitle{Version Control Systems}
+
+\begin{figure}
+\centerline{\includegraphics[width=0.5\textwidth]{images/workflow.png}}
+\label{fig:workflow}
+\caption{source:\url{http://progit.org/book/ch1-3.html}}
+\end{figure}
+
+Introduction to Git
+===================
+\framesubtitle{Installation}
+
+Linux:
+
+* `yum install git-core`
+* `apt-get install git-core`
+
+Mac OS X 10.4 (requires `port`):
+
+* `sudo port install git-core`
+
+Mac OS X 10.5
+
+* install from the installer
+
+Windows
+
+* install mysysgit
+
+I've got copies of these on the pendrive.
+Source: [http://progit.org/book/ch1-4.html](http://progit.org/book/ch1-4.html)
+
+
+Introduction to Git
+===================
+\framesubtitle{Usage}
+
+	git init 
+	git add <files>
+
+	git clone <url>
+	git status
+	git commit
+
+this will use the default editor --- change it with `git config --global core.editor`
+
+	git push
+
+
+Introduction to Git
+===================
+\framesubtitle{Usage}
+
+I've setup a git repo on github (https://github.com/android-interest-group) for this interest group.
+
+	git clone https://<username>@github.com/ \
+	    android-interest-group/aig.git
+
+This will create a folder 'aig' in the current directory. Go to `meetings/20110530/eclipse`, to setup your environment.
+
+Introduction to Git
+===================
+\framesubtitle{Resources}
+
+* \url{http://git-scm.com/}
+* \url{http://progit.org/}
+
+Eclipse Setup
+===================
+See the document in the repository. ;)
+
+Project Suggestions
+===================
+\framesubtitle{To get you started!}
+
+* tic-tac-toe
+* sudoku
+* hangman
+* snap
+* ...
