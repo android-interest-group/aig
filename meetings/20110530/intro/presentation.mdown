@@ -1,5 +1,5 @@
 % Android Development with Eclipse
-% Paul Crane, et al.
+% Paul Crane
 % \today
 
 Introduction

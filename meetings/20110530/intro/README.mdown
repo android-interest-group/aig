@@ -1,0 +1,15 @@
+
+# Introduction #
+
+This is the presentation given on Git, and Environment setup for the Otago Android Interest group
+
+# License #
+
+This work is licensed under the Creative Commons Attribution-NoDerivs  License. To view a 
+copy of this license, visit http://creativecommons.org/licenses/by-nd/3.0/; or, send a 
+letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California 94140,
+USA.
+
+The images used in the presentation are sourced from the pro-git book at [http://progit.org/](),
+and are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike license
+([http://creativecommons.org/licenses/by-nc-sa/3.0/us/]())
